@@ -30,7 +30,7 @@ import { remarkReadingTime } from "./src/plugins/remark-reading-time.mjs";
 // https://astro.build/config
 export default defineConfig({
 	site: siteConfig.siteURL,
-	base: "/",
+	base: "/Alex-mizuki-blog",
 	trailingSlash: "always",
 
 	output: "static",
