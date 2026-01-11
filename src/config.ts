@@ -24,7 +24,7 @@ const SITE_TIMEZONE = -8; //设置你的网站时区 from -12 to 12 default in U
 export const siteConfig: SiteConfig = {
 	title: "Lemon的小破站",
 	subtitle: "一个小博客，记录我的生活",
-	siteURL: "https://github.com/AlexCc123/Alex-mizuki-blog.git/", // 请替换为你的站点URL，以斜杠结尾
+	siteURL: "https://alex-mizuki-blog.vercel.app/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-01-10", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
@@ -249,7 +249,7 @@ export const navBarConfig: NavBarConfig = {
 					name: "Steam",
 					url: "https://steamcommunity.com/id/1930669118csc/",
 					external: true,
-					icon: "fa6-brands:steam",
+					icon: "fa6-brands:Steam",
 				},
 				{
 					name: "Bilibili",
@@ -351,7 +351,7 @@ export const profileConfig: ProfileConfig = {
 		},
 		{
 			name: "Steam",
-			icon: "fa6-brands:steam",
+			icon: "fa6-brands:Steam",
 			url: "https://steamcommunity.com/id/1930669118csc/",
 		},
 		{
@@ -634,16 +634,16 @@ export const pioConfig: import("./types/config").PioConfig = {
 	mode: "draggable", // 默认为可拖拽模式
 	hiddenOnMobile: true, // 默认在移动设备上隐藏
 	dialog: {
-		welcome: "Welcome to Lemon Website!", // 欢迎词
+		welcome: "欢迎来到 Lemon的小破站！", // 欢迎词
 		touch: [
-			"What are you doing?",
-			"Stop touching me!",
+			"干啥呀！",
+			"别这样碰我！",
 			"HENTAI!",
-			"Don't bully me like that!",
+			"太坏了你！",
 		], // 触摸提示
-		home: "Click here to go back to homepage!", // 首页提示
-		skin: ["Want to see my new outfit?", "The new outfit looks great~"], // 换装提示
-		close: "QWQ See you next time~", // 关闭提示
+		home: "点这里回到首页哦！", // 首页提示
+		skin: ["想看我变装吗？", "新衣服好看吧~"], // 换装提示
+		close: "呜呜~下次再见~", // 关闭提示
 		link: "https://github.com/matsuzaka-yuki/Mizuki", // 关于链接
 	},
 };
